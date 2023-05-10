@@ -1,7 +1,7 @@
 .container {
     background-color: #CCC;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
@@ -11,4 +11,27 @@
     padding: 20px;
     color: #FFF;
     font-size: 20px;
+}
+
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item8 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item10 {
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.item11 {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
